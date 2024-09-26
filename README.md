@@ -1,3 +1,36 @@
+[English]
+
+Project Description
+
+Project Name: GlobalTour
+
+Project Description: Developing a REST API that collects price and room information from travel agencies worldwide and presents data to clients in JSON format.
+
+Languages: Java (Virtual Threads), Kotlin (Coroutines), Go (Goroutines)
+
+Database: MongoDB Atlas
+
+User Authentication: User authentication and access control using Bloom filter.
+
+Technology and Tool Selection
+
+API Frameworks:
+
+Java: Spring Boot + Virtual Threads
+Kotlin: Ktor + Coroutines
+Go: Gin + Goroutines
+Configuration of agency servers using Node.js/Express.
+
+Database: MongoDB Atlas
+
+Authentication: Preliminary querying with Bloom Filter, user authentication on MongoDB.
+
+Management and Deployment:
+
+Containerization of applications using Docker.
+
+[Türkçe]
+
 1. Proje Tanımlaması ve
    
  Proje Adı: GlobalTour
