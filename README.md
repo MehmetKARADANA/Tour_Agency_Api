@@ -10,7 +10,7 @@
  
  User Authentication: Bloom filter kullanarak kullanıcı doğrulama ve erişim kontrolü.
  
-3. Teknoloji ve Araç Seçimi
+2. Teknoloji ve Araç Seçimi
    
  API Frameworks:
  
