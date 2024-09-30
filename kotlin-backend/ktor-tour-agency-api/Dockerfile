@@ -14,4 +14,4 @@ COPY src/main/resources/servers.yaml /app/src/main/resources/servers.yaml
 ENTRYPOINT ["java", "-jar", "/app/application.jar"]
 
 # Ktor uygulamasının çalışacağı portu açıyoruz
-EXPOSE 8080
+EXPOSE 8082

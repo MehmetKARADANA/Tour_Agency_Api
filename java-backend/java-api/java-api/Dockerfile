@@ -1,5 +1,5 @@
-# Temel imaj olarak Java 22'yi kullanıyoruz (Java 22, JDK için resmi bir imaj bulamazsanız, openjdk:17 kullanabilirsiniz)
-FROM openjdk:22-jdk-slim
+# Temel imaj olarak OpenJDK 17'yi kullanıyoruz
+FROM openjdk:17-jdk-slim
 
 # Uygulamanın çalışacağı dizini belirliyoruz
 WORKDIR /app
@@ -11,4 +11,4 @@ COPY target/java-api-0.0.1-SNAPSHOT.jar /app/application.jar
 ENTRYPOINT ["java", "-jar", "application.jar"]
 
 # Spring Boot'un çalışacağı portu açıyoruz
-EXPOSE 8080
+EXPOSE 8081

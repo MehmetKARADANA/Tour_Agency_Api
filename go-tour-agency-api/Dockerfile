@@ -17,7 +17,7 @@ COPY . .
 RUN go build -o server .
 
 # 7. Portu açıyoruz.
-EXPOSE 8080
+EXPOSE 8083
 
 # 8. Uygulamayı başlatıyoruz.
 CMD ["./server"]

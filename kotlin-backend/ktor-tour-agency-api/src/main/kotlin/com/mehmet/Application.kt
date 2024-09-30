@@ -27,7 +27,7 @@ val userBloomFilter: BloomFilter<String> = BloomFilter.create(
 )
 
 fun main() {
-    embeddedServer(Netty, port = 8080) {
+    embeddedServer(Netty, port = 8082) {
         install(ContentNegotiation) {
             gson {
                 setPrettyPrinting()
@@ -53,7 +53,7 @@ fun Application.configureRouting() {
     val client = HttpClient()
     val serversConfig = loadServersConfig("src/main/resources/servers.yaml") // servers.yaml path gradlew komutu ile çalıştırırken
 //application.kt ile çalıştırırken
-  //  val serversConfig = loadServersConfig("C:\\Users\\mkarad\\Desktop\\New folder (4)\\Tour_Agency_Api-main\\Tour_Agency_Api-main\\Tour_Agency_Api_Project-main\\kotlin-backend\\ktor-tour-agency-api\\src\\main\\resources\\servers.yaml") // servers.yaml path
+ //   val serversConfig = loadServersConfig("C:\\Users\\mkarad\\Desktop\\New folder (4)\\Tour_Agency_Api-main\\Tour_Agency_Api-main\\Tour_Agency_Api_Project-main\\kotlin-backend\\ktor-tour-agency-api\\src\\main\\resources\\servers.yaml") // servers.yaml path
 
     routing {
         get("/") {
