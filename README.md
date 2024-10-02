@@ -6,7 +6,7 @@ Project Name: GlobalTour
 
 Project Description: Developing a REST API that collects price and room information from travel agencies worldwide and presents data to clients in JSON format.
 
-Languages: Java ( Threads), Kotlin (Coroutines), Go (Goroutines)
+Languages: Java (Virtual Threads), Kotlin (Coroutines), Go (Goroutines)
 
 Database: MongoDB Atlas
 
@@ -16,7 +16,7 @@ Technology and Tool Selection
 
 API Frameworks:
 
-Java: Spring Boot + Threads
+Java: Spring Boot + Virtual Threads
 Kotlin: Ktor + Coroutines
 Go: Gin + Goroutines
 Configuration of agency servers using Node.js/Express.
@@ -37,7 +37,7 @@ Containerization of applications using Docker.
 
  Proje Tanımı: Dünyadaki turizm acentelerinden fiyat ve oda bilgisi toplayarak, istemcilere JSON formatında veri sunacak bir REST API geliştirme.
  
- Diller: Java (Threads), Kotlin (Coroutines), Go (Goroutines)
+ Diller: Java (Virtual Threads), Kotlin (Coroutines), Go (Goroutines)
  
  Veritabanı: MongoDB Atlas
  
@@ -47,7 +47,7 @@ Containerization of applications using Docker.
    
  API Frameworks:
  
- Java: Spring Boot + Threads
+ Java: Spring Boot + Virtual Threads
  
  Kotlin: Ktor + Coroutines
  
