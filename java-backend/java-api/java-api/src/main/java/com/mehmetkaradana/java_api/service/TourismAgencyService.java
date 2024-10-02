@@ -70,7 +70,7 @@ public class TourismAgencyService {
 
     }
 
-    public Flux<String> getRoomsFromAllAgencies() {
+   /* public Flux<String> getRoomsFromAllAgencies() {
         List<Map<String, Object>> servers = loadServersFromYaml(); // YAML dosyasından sunucu bilgilerini yükler
         ExecutorService executor = Executors.newFixedThreadPool(10); // Sabit bir thread pool kullanın
 
@@ -97,9 +97,9 @@ public class TourismAgencyService {
                                         return Mono.empty();
                                     }));
                 });
-    }
+    }*/
 
-/*
+
     public Flux<String> getRoomsFromAllAgencies() {
        List<Map<String, Object>> servers = loadServersFromYaml();
 
@@ -130,6 +130,6 @@ public class TourismAgencyService {
                                     }));
                 });
 
-    }*/
+    }
 }
 
